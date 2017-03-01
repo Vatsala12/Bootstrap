@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Languages
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Html</a> </li>
+            <li><a href="#">Css</a> </li>
+            <li><a href="#">JavaScript</a> </li>
+        </ul>
+    </div>
+    <br>
+    <h3>Divider</h3>
+    <div class="dropdown">
+        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Languages
+            <span class="caret"></span>
+        </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Html</a> </li>
+                <li><a href="#">Css</a> </li>
+                <li><a href="#">JavaScript</a> </li>
+                <li class="divider"></li>
+                <li><a href="#">Other</a> </li>
+            </ul>
+            </div>
+    <h3>Header</h3>
+    <div class="dropdown">
+        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Languages
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-header">Website designing</li>
+            <li><a href="#">Html</a> </li>
+            <li><a href="#">Css</a> </li>
+            <li><a href="#">JavaScript</a> </li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Programming</li>
+            <li><a href="#">C</a> </li>
+            <li><a href="#">C++</a> </li>
+            <li><a href="#">Java</a> </li>
+        </ul>
+    </div>
+    <h3>Active and Disabled</h3>
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Languages
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li class="active"><a href="#">Html</a> </li>
+            <li><a href="#">Css</a> </li>
+            <li class="disabled"><a href="#">JavaScript</a> </li>
+        </ul>
+    </div>
+    <h3>Right</h3>
+     <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Fruits
+        <span class="caret"></span>
+        </button>
+         <ul class="dropdown-menu dropdown-menu-right">
+             <li ><a href="#">Apple</a> </li>
+             <li ><a href="#">Mango</a> </li>
+             <li ><a href="#">Banana</a> </li>
+             <li ><a href="#">PineApple</a> </li>
+         </ul>
+    </div>
+    <h3>Dropup</h3>
+    <div class="dropup">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            Fruits
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li ><a href="#">Apple</a> </li>
+            <li ><a href="#">Mango</a> </li>
+            <li ><a href="#">Banana</a> </li>
+            <li ><a href="#">PineApple</a> </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

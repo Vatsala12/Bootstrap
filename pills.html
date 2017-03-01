@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pills</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <ul class="nav nav-pills">
+        <li class="active"><a href="#">Home</a> </li>
+        <li><a href="#">Past</a> </li>
+        <li><a href="#">Present</a> </li>
+        <li><a href="#">Future</a> </li>
+    </ul>
+    <h2>Vertical</h2>
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Home</a> </li>
+        <li><a href="#">Past</a> </li>
+        <li><a href="#">Present</a> </li>
+        <li><a href="#">Future</a> </li>
+    </ul>
+    <h2>Multiple column pills</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <p>The following example places the vertical pill menu inside the last column. So, on a large screen the menu
+                will be displayed to the right.
+                But on a small screen, the content will automatically adjust itself into a single-column layout:</p>
+        </div>
+        <div class="col-md-3">
+            <p>The following example places the vertical pill menu inside the last column. So, on a large screen the menu
+                will be displayed to the right.
+                But on a small screen, the content will automatically adjust itself into a single-column layout:</p>
+        </div>
+        <div class="col-md-3">
+            <p>The following example places the vertical pill menu inside the last column. So, on a large screen the menu
+                will be displayed to the right.
+                But on a small screen, the content will automatically adjust itself into a single-column layout:</p>
+        </div>
+        <div class="col-md-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="#">Home</a> </li>
+                <li><a href="#">Past</a> </li>
+                <li><a href="#">Present</a> </li>
+                <li><a href="#">Future</a> </li>
+            </ul>
+        </div>
+    </div>
+    <h2>Dropdown menu</h2>
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Home</a> </li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Past
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Simple</a></li>
+            <li><a href="#">Perfect</a></li>
+        </ul>
+        <li><a href="#">Present</a> </li>
+        <li><a href="#">Future</a> </li>
+    </li>
+    </ul>
+<h2>Justified</h2>
+    <ul class="nav nav-pills nav-justified">
+        <li class="active"><a href="#">Home</a> </li>
+        <li><a href="#">Past</a> </li>
+        <li><a href="#">Present</a> </li>
+        <li><a href="#">Future</a> </li>
+    </ul>
+    <h2>Dynamic pill</h2>
+    <ul class="nav nav-pills">
+        <li class="active"><a href="#h" data-toggle="pill">Home</a> </li>
+        <li><a href="#p" data-toggle="pill">Past</a> </li>
+        <li><a href="#pr" data-toggle="pill">Present</a> </li>
+        <li><a href="#f" data-toggle="pill">Future</a> </li>
+    </ul>
+    <div class="tab-content">
+        <div id="h" class="tab-pane fade in active">
+            <h3>Home</h3>
+            <p>Welcome to world of quotes.<br>
+                Change is the law of life. And those who look only to the past or present are certain to miss the future.
+            </p>
+        </div>
+        <div id="p" class="tab-pane fade">
+            <h3>Past</h3>
+            <p>Keep looking up! I learn from the past, dream about the future and look up.
+                There's nothing like a beautiful sunset to end a healthy day</p>
+        </div>
+
+    <div id="pr" class="tab-pane fade">
+        <h3>Present</h3>
+        <p>I don't care too much what happened in the past. I prefer to focus on
+            what is coming next and I am really looking forward to it.
+            </p>
+    </div>
+    <div id="f" class="tab-pane fade">
+        <h3>Future</h3>
+        <p>We are made wise not by the recollection of our past, but by the responsibility for our future.</p>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>

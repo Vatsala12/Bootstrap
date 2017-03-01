@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collapsible</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">Click me</button>
+    <div id="demo" class="collapse">
+        I had a dream
+        We were sipping whisky neat
+        Highest floor, the bowery
+        And I was high enough
+        'Somewhere along the lines
+        We stopped seeing eye to eye
+        You were staying out all night
+        And I had enough
+        No, I don't wanna know where you been or where you're going
+        But I know I won't be home
+        And you'll be on your own
+    </div>
+    <h3>OR </h3>
+    <a href="#den" class="btn btn-info" data-toggle="collapse">Click me</a>
+    <div id="den" class="collapse in">
+        I had a dream
+        We were sipping whisky neat
+        Highest floor, the bowery
+        And I was high enough
+        'Somewhere along the lines
+        We stopped seeing eye to eye
+        You were staying out all night
+        And I had enough
+        No, I don't wanna know where you been or where you're going
+        But I know I won't be home
+        And you'll be on your own
+    </div>
+    <h2>Collapsible panel</h2>
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <a href="#c" data-toggle="collapse">Panel</a>
+                </h3>
+            </div>
+            <div class="collapse" id="c">
+                <div class="panel-body">Body</div>
+                <div class="panel-footer">Footer</div>
+            </div>
+        </div>
+    </div>
+    <h2>List group</h2>
+    <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <a href="#c1" data-toggle="collapse">Panel list</a>
+                </h3>
+            </div>
+            <div id="c1" class="collapse">
+                <ul class="list-group">
+                    <li class="list-group-item">Item 1</li>
+                    <li class="list-group-item">Item 2</li>
+                    <li class="list-group-item">Item 3</li>
+                </ul>
+                <div class="panel-footer">Footer</div>
+            </div>
+        </div>
+    </div>
+    <h2>Accordion</h2>
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <a href="#ca" data-toggle="collapse" data-parent="#accordion">Panel 1</a>
+                </h3>
+            </div>
+            <div class="panel-collapse collapse in" id="ca">
+                <div class="panel-body"> Do you remember, we were sittin', there by the water?
+                You put your arm around me for the first time
+                You made a rebel of a careless man's careful daughter
+                You are the best thing, that's ever been mine
+                </div>
+            </div>
+        </div>
+            <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <a href="#cb" data-toggle="collapse" data-parent="#accordion">Panel 2</a>
+                </h3>
+            </div>
+            <div id="cb" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Do you remember, we were sittin', there by the water?
+                    You put your arm around me for the first time
+                    You made a rebel of a careless man's careful daughter
+                    You are the best thing, that's ever been mine
+                </div>
+            </div>
+            </div>
+                <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <a href="#cc" data-toggle="collapse" data-parent="#accordion">Panel 3</a>
+                </h3>
+            </div>
+            <div id="cc" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Do you remember, we were sittin', there by the water?
+                    You put your arm around me for the first time
+                    You made a rebel of a careless man's careful daughter
+                    You are the best thing, that's ever been mine
+                </div>
+            </div>
+                </div>
+    </div>
+</div>
+</body>
+</html>
